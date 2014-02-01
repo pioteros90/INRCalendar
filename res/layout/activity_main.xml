@@ -17,4 +17,13 @@
         android:background="@color/black"
         android:src="@drawable/ic_help" />
 
+    <ImageButton
+        android:id="@+id/calendarButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/helpButton"
+        android:layout_centerHorizontal="true"
+        android:background="@color/black"
+        android:src="@drawable/ic_calendar" />
+
 </RelativeLayout>

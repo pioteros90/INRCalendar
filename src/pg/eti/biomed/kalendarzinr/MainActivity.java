@@ -15,12 +15,15 @@ import android.widget.ImageButton;
 public class MainActivity extends Activity implements OnClickListener{
 	
 	private ImageButton helpButton;
+	private ImageButton calendarButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.helpButton = (ImageButton) findViewById(R.id.helpButton);
+        this.calendarButton = (ImageButton) findViewById(R.id.calendarButton);
+        calendarButton.setOnClickListener(this);
         helpButton.setOnClickListener(this);
     }
 
@@ -34,8 +37,16 @@ public class MainActivity extends Activity implements OnClickListener{
 
 
 	public void onClick(View arg0) {
-		Intent intencja = new Intent(this, Guide.class);
-		startActivity(intencja);
+		int id = arg0.getId();
+		Intent intention=null;
+		if(id==R.id.helpButton){
+			intention = new Intent(this, Guide.class);
+		}if(id==R.id.calendarButton){
+			intention = new Intent(this, Calendar.class);
+		}		
+		
+		startActivity(intention);
+
 		
 	}
     

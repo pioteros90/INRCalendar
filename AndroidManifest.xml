@@ -26,6 +26,10 @@
             android:name="pg.eti.biomed.kalendarzinr.Guide"
             android:label="@string/title_activity_guide" >
         </activity>
+        <activity
+            android:name="pg.eti.biomed.kalendarzinr.Calendar"
+            android:label="@string/title_activity_calendar" >
+        </activity>
     </application>
 
 </manifest>
