@@ -1,0 +1,24 @@
+<style>
+table, th, td
+{
+border:1px solid black;
+
+}
+
+body
+{
+background:radial-gradient(#EDF8FD, #C1E9FD);
+{
+</style>
+<html>
+<body>
+<b>5.1 Właściwości farmakodynamiczne</b><br><br>
+Grupa farmakoterapeutyczna: Krew i układ krwiotwórczy; Leki przeciwzakrzepowe, Antagoniści witaminy K, Warfaryna. Kod ATC: B01AA03.
+Warfaryna, lub 4-hydroksykumaryna, jest lekiem przeciwkrzepliwym hamującym zależną od witaminy K syntezę czynników krzepnięcia. Spośród izomerów, S-warfaryna jest około 5-krotnie silniej działająca aniżeli R-warfaryna. Skuteczność oparta jest na zdolności warfaryny do hamowania redukcji i działania witaminy K w szlaku produkcji czynników krzepnięcia II, VII, IX, oraz X. W dawkach terapeutycznych warfaryna hamuje produkcję czynników krzepnięcia w zakresie od 30 do 50%, zmniejszając również ich aktywność biologiczną. Pełne działanie uzyskuje się w ciągu 2 do 7 dni, podczas których eliminowane są czynniki krzepnięcia już obecne w krążeniu.
+<br><br><b>5.2 Właściwości farmakokinetyczne</b><br><br>
+Biodostępność doustnie podanej warfaryny wynosi ponad 90% a maksymalne stężenie w surowicy osiąga po 1,2 godzinie. Jednoczesne spożycie posiłku spowalnia, lecz nie zmniejsza ilości wchłoniętego leku. Istnieje pewnego stopnia recyrkulacja jelitowo-wątrobowa. Warfaryna silnie wiąże się z albuminami osocza, wolna frakcja zmienia się od 0,5 do 3%. Objętość dystrybucji wynosi około 0,14 l/kg. Warfaryna przenika przez łożysko, lecz nie jest wydzielana z mlekiem matki. Warfaryna eliminowana jest na drodze metabolizmu wątrobowego. Wskutek działania katalizatora CYP2C9 (S-warfaryna) oraz CYP1A2 i CYP3A (R-warfaryna), lek podlega konwersji do nieczynnych metabolitów, wydalanych z moczem. Okres półtrwania S-warfaryny wynosi od 18 do 35 godzin, a R-warfaryny, od 20 do 70 godzin.
+<br><br><b>5.3 Przedkliniczne dane dotyczące bezpieczeństwa</b><br><br>
+Badania na zwierzętach wykazały, że warfaryna ma działanie teratogenne. Pod innymi względami dostępne dane przedkliniczne dotyczące bezpieczeństwa nie wskazują innych istotne dla człowieka informacji.
+
+</body>
+</html>

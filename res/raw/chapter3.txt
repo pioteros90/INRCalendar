@@ -1,0 +1,20 @@
+<style>
+table, th, td
+{
+border:1px solid black;
+
+}
+
+body
+{
+background:radial-gradient(#EDF8FD, #C1E9FD);
+{
+</style>
+<html>
+<body>
+<b>Tabletki.</b><br><br>
+<b>3 mg tabletki:</b> jasnoniebieskie (mogą zawierać kropki), płaskie, o skośnych brzegach, z podziałką, niepowlekane tabletki o średnicy 7 mm, oznaczone "ORN 17" po jednej stronie.
+<br><br><b>5 mg tabletki:</b> różowe (mogą zawierać kropki), płaskie, o skośnych brzegach, z podziałką, niepowlekane tabletki o średnicy 7 mm, oznaczone "ORN 18" po jednej stronie.
+
+</body>
+</html>

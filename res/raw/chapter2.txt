@@ -1,0 +1,21 @@
+<style>
+table, th, td
+{
+border:1px solid black;
+
+}
+
+body
+{
+background:radial-gradient(#EDF8FD, #C1E9FD);
+{
+</style>
+<html>
+<body>
+<b>3 mg tabletki:</b> jedna tabletka zawiera 3 mg soli sodowej warfaryny.
+<br><br><b>5 mg tabletki:</b> jedna tabletka zawiera 5 mg soli sodowej warfaryny.
+<br>Substancje pomocnicze, patrz punkt 6.1.
+
+</body>
+</html>
+

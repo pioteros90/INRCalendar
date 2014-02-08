@@ -1,0 +1,33 @@
+<style>
+table, th, td
+{
+border:1px solid black;
+
+}
+
+body
+{
+background:radial-gradient(#EDF8FD, #C1E9FD);
+{
+</style>
+<html>
+<body>
+<b>6.1 Wykaz substancji pomocniczych</b><br><br>
+laktoza jednowodna
+skrobia kukurydziana
+żelatyna
+magnezu stearynian
+indygokarmin (E 132) w tabletkach 3 mg
+erytrozyna (E 127) w tabletkach 5 mg
+<br><br><b>6.2 Niezgodności farmaceutyczne</b><br><br>
+Nie dotyczy.
+<br><br><b>6.3 Okres ważności</b><br><br>
+3 lata.
+<br><br><b>6.4 Specjalne środki ostrożności przy przechowywaniu</b><br><br>
+Przechowywać w temperaturze poniżej 25 °C w oryginalnym opakowaniu.
+<br><br><b>6.5 Rodzaj i zawartość opakowania</b><br><br>
+30 lub 100 tabletek w pojemniku plastikowym HDPE z zamknięciem HDPE.
+<br><br><b>6.6 Instrukcja dotycząca przygotowania leku do stosowania i usuwania jego pozostałości</b><br><br>
+Brak szczególnych wymogów.
+</body>
+</html>

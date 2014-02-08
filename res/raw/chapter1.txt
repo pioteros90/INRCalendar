@@ -1,0 +1,18 @@
+<style>
+table, th, td
+{
+border:1px solid black;
+
+}
+
+body
+{
+background:radial-gradient(#EDF8FD, #C1E9FD);
+{
+</style>
+<html>
+<body>
+Warfarin 3 mg tabletki<br>
+Warfarin 5 mg tabletki
+</body>
+</html>

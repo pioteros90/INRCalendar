@@ -1,0 +1,352 @@
+<style>
+table, th, td
+{
+border:1px solid black;
+
+}
+
+   a{color:#8A4510} 
+   a{text-decoration:none} 
+body
+{
+background:radial-gradient(#EDF8FD, #C1E9FD);
+{
+
+
+</style>
+
+<html>
+<body>
+<br><br>
+<a name="z10"></a>
+<a href="#z1"><b>4.1 Wskazania do stosowania</b></a><br>
+<a href="#z2"><b>4.2 Dawkowanie i sposób podawania</b></a><br>
+<a href="#z3"><b>4.3 Przeciwwskazania</b></a><br>
+<a href="#z4"><b>4.4 Specjalne ostrzeżenia i środki ostrożności dotyczące stosowania</b></a><br>
+<a href="#z5"><b>4.5 Interakcje z innymi lekami i inne rodzaje interakcji</b></a><br>
+<a href="#z6"><b>4.6 Ciąża i laktacja</b></a><br>
+<a href="#z7"><b>4.7 Wpływ na zdolność prowadzenia pojazdów mechanicznych i obsługiwania urządzeń mechanicznych w ruchu</b></a><br>
+<a href="#z8"><b>4.8 Działania niepożądane</b></a><br>
+<a href="#z9"><b>4.9 Przedawkowanie</b></a><br><br><br>
+
+
+
+
+
+
+
+<a name="z1"></a>
+<b>4.1 Wskazania do stosowania</b>
+
+
+<UL>
+<LI>Leczenie i zapobieganie zakrzepicy żył głębokich i zatorowości płucnej.
+<LI>Wtórne zapobieganie zawałowi mięśnia sercowego i zapobieganie powikłaniom zakrzepowo-zatorowym (udar lub zator w krążeniu obwodowym) po zawale mięśnia sercowego.
+<LI>Zapobieganie powikłaniom zakrzepowo-zatorowym (udar lub zator w krążeniu obwodowym) u pacjentów z migotaniem przedsionków, z patologią zastawek lub po protezowaniu zastawek serca.
+</UL>
+<a name="z2"></a>
+<b>4.2 Dawkowanie i sposób podawania</b><br><br>
+<u>Docelowy zakres wartości INR (normalizowany wskaźnik aktywności protrombiny [ang. International Normalized Ratio]) podczas doustnego leczenia przeciwkrzepliwego:</u><br>
+Zapobieganie powikłaniom zakrzepowo-zatorowym u pacjentów po protezowaniu zastawek serca: INR 2,5-3,5.
+Inne wskazania: INR 2,0-3,0.<br><br>
+<b>Dorośli:</b><br>
+U pacjentów z normalną wagą i samoistną wartością INR poniżej 1,2 dawkowanie wynosi 10 mg warfaryny przez trzy kolejne dni. Podawanie leku kontynuuje się zgodnie z tabelą poniżej, zależnie od wartości oznaczenia INR wykonanego w czwartym dniu leczenia.
+W leczeniu ambulatoryjnym, u pacjentów z wrodzonym niedoborem białka C lub białka S (patrz punkt 4.4 i 4.8), zalecana dawka początkowa wynosi 5 mg warfaryny (*) przez trzy kolejne dni. Podawanie leku kontynuuje się zgodnie z poniższą tabelą, w zależności od wyniku oznaczenia INR wykonanego w czwartym dniu leczenia.
+W przypadku pacjentów starszych, pacjentów drobnej budowy, pacjentów z samoistnym wskaźnikiem INR powyżej 1,2 lub u pacjentów cierpiących na chorobę (patrz punkt 4.4) bądź otrzymujących leczenie (patrz punkt 4.5) wpływające na skuteczność leczenia przeciwkrzepliwego, zalecaną dawką początkową jest 5 mg warfaryny (*) przez dwa kolejne dni. Podawanie leku kontynuuje się zgodnie z poniższą tabelą, w oparciu o wynik oznaczenia INR wykonanego w trzecim dniu leczenia.
+<br><br>
+<table>
+
+<tr><br>
+<th>Dzień</th>
+<th>INR</th>
+<th>Dawka warfaryny, mg/dzień</th>
+</tr>
+
+<tr>
+<td>1.</td>
+<td>-</td>
+<td>10 (5*) </td>
+</tr>
+<tr>
+<td id="k">2.</td>
+<td>- </td>
+<td> 10 (5*)</td>
+</tr>
+<tr>
+<td rowspan="6">3.</td>
+<td><2,0 </td><td> 10 (5*)</td>
+<tr><td >2,0 do 2,4</td><td >5</td></tr>
+<tr><td >2,5 do 2,9</td><td>3</td></tr>
+<tr><td>3,0 do 3,4</td><td >2,5</td></tr>
+<tr><td >3,5 do 4,0</td><td >1,5</td></tr>
+<tr><td >>4,0</td><td >opuścić jeden dzień</td></tr>
+
+<td rowspan="7">4.-6.</td>
+<td><1,4</td><td>10</td>
+<tr><td >1,4 do 1,9</td><td >7,5</td></tr>
+<tr><td >2,0 do 2,4</td><td>5</td></tr>
+<tr><td>2,5 do 2,9</td><td >4,5</td></tr>
+<tr><td >3,0 do 3,9</td><td >3</td></tr>
+<tr><td >>4,0 do 4,5</td><td >opuścić jeden dzień, następnie 1,5</td></tr>
+<tr><td >>4,5</td><td >opuścić dwa dni, następnie 1,5</td></tr>
+
+
+<td rowspan="7">7.-</td>
+<tr><td ></td><td ><u>Tygodniowa dawka warfaryny<u></td></tr>
+<td>1,1 do 1,4</td><td>zwiększyć o 20%</td>
+<tr><td >1,5 do 1,9</td><td >zwiększyć o 10%</td></tr>
+<tr><td >2,0 do 3,0</td><td>utrzymać dawkę</td></tr>
+<tr><td>3,1 do 4,5</td><td >zmniejszyć o 10%</td></tr>
+<tr><td >>4,5</td><td >opuszczać dawki do czasu INR <4,5, następnie kontynuować z dawką zmniejszoną o 20%</td></tr>
+
+
+
+Oznaczenia INR wykonuje się codziennie do chwili uzyskania stabilnej wartości docelowej, zwykle wymaga to 5 do 6 dni od chwili rozpoczęcia podawania. Odstępy czasu pomiędzy kolejnymi oznaczeniami INR ulegają wówczas cotygodniowemu wydłużeniu, docelowo osiągając 4-tygodniowe odstępy. Jeśli w wartościach wskaźnika INR występują duże wahania lub gdy pacjent cierpi na choroby wątroby lub choroby wpływające na wchłanianie witaminy K, odstępy pomiędzy kolejnymi pomiarami muszą być krótsze aniżeli 4 tygodnie. Dołączenie nowych leków lub odstawienie dotychczas stosowanych wymaga częstszej kontroli wskaźnika INR. W terapii długoterminowej, korekty wykonuje się w zakresie tygodniowej dawki warfaryny, zgodnie z tabelą przedstawioną powyżej. Jeśli dawka wymaga korekty, następne oznaczenie INR należy wykonać po 1 lub 2 tygodniach od czasu wprowadzenia zmiany. Po tym okresie odstępy pomiędzy pomiarami mogą być ponownie wydłużone do zamierzonych 4-tygodniowych.
+<br><br><b>Dzieci:</b><br>
+Rozpoczęcie i kontynuacja leczenia przeciwkrzepliwego w dzieci przeprowadza lekarz pediatra. Dawkowanie może być dostosowane zgodnie z tabelą przedstawioną poniżej.
+
+
+
+<br><br>
+
+
+
+
+
+<table >
+
+<tr>
+<th>I Dzień 1</th>
+<td>Jeśli wyjściowe INR wynosi 1,0 do 1,3, dawka wysycająca wynosi 0,2 mg/kg p.o.</td>
+<tr>
+<tr>
+<th>II Okres wysycenia, od 2 do 4 dnia, jeśli wartość wskaźnika INR wynosi:</th>
+<th>Działanie</th>
+<tr>
+<tr>
+<td>1,1 do 1,3</td>
+<td>Powtórzenie dawki wysycającej</td>
+<tr>
+<tr>
+<td>1,4 do 1,9</td>
+<td>50% dawki wysycającej</td>
+<tr>
+<tr>
+<td>2,0 do 3,0</td>
+<td>50% dawki wysycającej</td>
+<tr>
+<tr>
+<td>3,1 do 3,5</td>
+<td>25% dawki wysycającej</td>
+<tr>
+<tr>
+<td>>3,5</td>
+<td>Wstrzymać aż do INR <3,5, wtedy ponownie włączyć z 50% obniżoną dawką w stosunku do poprzedniej</td>
+<tr>
+
+<tr>
+<th>II Okres leczenia podtrzymującego, jeśli INR wynosi:</th>
+<th>Działanie (dawka tygodniowa)</th>
+<tr>
+<tr>
+<td>1,1 do 1,4</td>
+<td>Zwiększenie dawki o 20%</td>
+<tr>
+<tr>
+<td>1,5 do 1,9</td>
+<td>Zwiększenie dawki o 10%</td>
+<tr>
+<tr>
+<td>2,0 do 3,0</td>
+<td>Brak zmiany dawki</td>
+<tr>
+<tr>
+<td>3,1 do 3,5</td>
+<td>Zmniejszenie dawki o by 10%</td>
+<tr>
+<tr>
+<td>>3,5</td>
+<td>Wstrzymać aż do INR <3,5, wtedy ponownie włączyć z 20% obniżoną dawką w stosunku do poprzedniej</td>
+<tr>
+
+
+
+</table>
+<br>
+<u>Planowe leczenie chirurgiczne</u><br>
+Przed-, około- i pooperacyjne leczenie przeciwkrzepliwe prowadzić można w sposób następujący: (jeśli konieczne jest pilne odwrócenie efektu doustnego leczenia przeciwkrzepliwego, patrz punkt 4.9).
+<br>Oznaczyć INR na jeden tydzień przed przewidzianym zabiegiem operacyjnym.
+<br>Odstawić warfarynę na 1 do 5 dni przed zabiegiem. Jeśli u pacjenta występuje wysokie ryzyko zakrzepicy, profilaktycznie należy podawać podskórnie heparynę niskocząsteczkową.
+<br>Okres przerwy w stosowaniu warfaryny zależy od wskaźnika INR. Odstawić warfarynę
+
+<UL>
+<LI>5 dni przed operacją, jeśli INR > 4,0;
+<LI>3 dni przed operacją, jeśli INR = 3,0 do 4,0;
+<LI>2 dni przed operacją, jeśli INR = 2,0 do 3,0.
+</UL>
+<br>
+<br>Oznaczyć wskaźnik INR wieczorem w dniu poprzedzającym zabieg i podać doustnie lub dożylnie od 0,5 do 1 mg witaminy K, jeśli INR >1,8.
+Rozważyć konieczność zastosowania wlewu z heparyny niefrakcjonowanej lub profilaktycznego podania heparyny niskocząsteczkowej w ciągu dnia, w którym wykonywany jest zabieg.
+Kontynuować podskórne podawanie heparyny niskocząsteczkowej przez 5 do 7 dni po zabiegu, równolegle z warfaryną ponownie wprowadzoną do leczenia.
+Kontynuować stosowanie warfaryny w normalnej dawce podtrzymującej, podanej wieczorem tego samego dnia, po drobnym zabiegu chirurgicznym. Natomiast po poważnym zabiegu chirurgicznym podawać warfarynę od dnia rozpoczęcia żywienia dojelitowego.
+<br><br><a name="z3"></a><b>4.3 Przeciwwskazania</b><br>
+<UL>
+<LI>Ciąża (patrz również punkt 4.6).
+<LI>Tendencja do krwawień (choroba von Willebranda, hemofilie, małopłytkowość, zaburzenia czynności płytek krwi).
+<LI>Ciężka niewydolność wątroby oraz marskość wątroby.
+<LI>Nieleczone lub źle kontrolowane nadciśnienie tętnicze.
+<LI>Świeżo przebyte krwawienie wewnątrzczaszkowe. Stany predysponujące do krwawień wewnątrzczaszkowych takie, jak tętniaki tętnic mózgowych.
+<LI>Tendencja do upadania.
+<LI>Zabiegi chirurgiczne w obrębie ośrodkowego układu nerwowego lub oka.
+<LI>Stany predysponujące do krwawień z przewodu pokarmowego lub dróg moczowych, np. powikłania związane z krwawieniami z przewodu pokarmowego, uchyłkowatość jelita lub choroby nowotworowe w wywiadzie.
+<LI>Infekcyjne zapalenie wsierdzia (patrz również punkt 4.4) lub wysięk osierdziowy.
+<LI>Otępienie, psychozy, alkoholizm oraz inne stany, w których przestrzeganie zaleceń ze strony pacjenta może nie być satysfakcjonujące oraz gdy leczenie przeciwkrzepliwe nie może być bezpieczne podawane.
+</UL>
+<br>
+<a name="z4"></a>
+<b>4.4 Specjalne ostrzeżenia i środki ostrożności dotyczące stosowania</b><br>
+<a href="#z10"><i>Wróć na górę</i></a><br><br>
+<br>Jeśli konieczne jest uzyskanie szybkiego działania przeciwzakrzepowego, należy najpierw rozpocząć leczenie heparyną. Następnie kontynuuje się równolegle leczenie heparyną wraz z rozpoczęciem leczenia warfaryną, przez okres przynajmniej 5 do 7 dni, do czasu uzyskania wskaźnika INR utrzymującego się na poziomie docelowym (patrz punkt 4.2) przez co najmniej dwa dni.
+<br>
+Oporność na warfarynę jest niezwykle rzadkim zjawiskiem. Opublikowano jedynie pojedyncze doniesienia na ten temat. Tacy pacjenci wymagają od 5 do 20-krotnie wyższych dawek warfaryny w celu uzyskania odpowiedzi terapeutycznej. Jeśli odpowiedź pacjenta na warfarynę jest słaba, należy wykluczyć inne, bardziej prawdopodobne przyczyny takiego stanu rzeczy: nieprzestrzeganie zaleceń przez pacjenta, interakcja z innymi lekami lub z pokarmem, jak również błędy laboratoryjne.
+<br>
+W celu uniknięcia martwicy kumarynowej (patrz punkt 4.8), pacjentów z wrodzonym niedoborem przeciwzakrzepowego białka C lub białka S należy w pierwszej kolejności leczyć heparyną. Jednocześnie początkowe wysycające dawki warfaryny nie mogą przekraczać 5 mg. Leczenie heparyną należy kontynuować przez 5 do 7 dni, zgodnie z opisem w poprzednim akapicie.
+<br>
+Należy zachować szczególną ostrożność podczas leczenia pacjentów w podeszłym wieku. Należy upewnić się, czy pacjent będzie spełniał polecenia oraz czy jest zdolny do przestrzegania restrykcyjnych zasad dawkowania leku. Wątrobowy metabolizm warfaryny jak również produkcja czynników krzepnięcia ulegają spowolnieniu u osób starszych. Może to łatwo prowadzić do nadmiernego efektu terapeutycznego warfaryny. Leczenie należy rozpoczynać ostrożnie (patrz punkt 4.2). Należy wziąć pod uwagę inne jednocześnie stosowane leki w celu uniknięcia szkodliwych interakcji (patrz punkt 4.5).
+<br>Nadczynność tarczycy, gorączka i niewyrównana niewydolność krążenia mogą nasilać działanie warfaryny. W niedoczynności tarczycy działanie warfaryny może być słabsze. W umiarkowanej niewydolności wątroby działanie warfaryny ulega nasileniu. W niewydolności nerek oraz w zespole nerczycowym rośnie wolna frakcja warfaryny w surowicy krwi, co w zależności od chorób współistniejących może prowadzić albo do nasilenia, albo do osłabienia działania warfaryny. We wszystkich wymienionych przypadkach należy uważnie monitorować stan kliniczny pacjenta oraz wskaźnik INR.
+<b><br><br><a name="z5"></a>4.5 Interakcje z innymi lekami i inne rodzaje interakcji</b><br>
+<a href="#z10"><i>Wróć na górę</i></a><br><br>
+<br>Warfaryna wchodzi w interakcje z wieloma innymi lekami. Niektóre leki mogą wpływać na wchłanianie lub krążenie jelitowo-wątrobowe warfaryny, np. cholestyramina. Może mieć miejsce indukcja (np. leki przeciwpadaczkowe lub przeciwgruźlicze) lub zahamowanie (np. amiodaron lub metronidazol) metabolizmu wątrobowego warfaryny. Należy również brać pod uwagę zaprzestanie indukcji bądź zahamowania metabolizmu. Warfaryna może ulec wyparciu z wiązań z białkami surowicy krwi, przez co zwiększa się wolna frakcja, co prowadzi do nasilenia metabolizmu i eliminacji warfaryny, prowadząc do zmniejszenia jej działania, chyba, że u pacjenta występuje niewydolność wątroby. Leki wpływające na płytki krwi oraz hemostazę pierwotną (np. kwas acetylosalicylowy, klopidogrel, tiklopidyna, dipirydamol oraz większość niesteroidowych leków przeciwzapalnych) mogą powodować farmakodynamiczną interakcję i predysponować pacjenta do ciężkich powikłań krwotocznych. Penicyliny stosowane w dużych dawkach mają takie samo działanie na hemostazę pierwotną. Steroidy anaboliczne, azapropazon, erytromycyna oraz niektóre cefalosporyny hamują bezpośrednio zależną od witaminy K produkcję czynników krzepnięcia i nasilają działanie warfaryny. Duży dowóz witaminy K w diecie ogranicza działania warfaryny. Zahamowane wchłanianie witaminy K z powodu na przykład biegunki może nasilać działanie warfaryny. Pacjenci z nieprawidłowym dowozem witaminy K w pokarmach uzależnieni są od witaminy K2 produkowanej przez bakterie w jelitach. U tych pacjentów zastosowanie dowolnego antybiotyku może zmniejszyć produkcję witaminy K2, prowadząc do nasilenia działania warfaryny. Spożycie dużych ilości alkoholu z równoległą niewydolnością wątroby nasila działanie warfaryny. Chinina zawarta w napojach typu tonik również może nasilać działanie warfaryny.
+Jeśli pacjent wymaga okresowego leczenia przeciwbólowego podczas leczenia warfaryną, zalecanymi lekami są paracetamol lub opiaty.
+Warfaryna może nasilać działanie doustnych leków przeciwcukrzycowych, pochodnych sulfonylomocznika.
+<br><br>Następujące leki mają znane działanie wpływające na skuteczność warfaryny:
+<br><br><u>Nasilenie działania:</u> kwas acetylosalicylowy, allopurinol, amiodaron, amoksycylina, argatroban, azapropazon, azytromycyna, bezafibrat, karboksyurydyna, celecoksyb, klarytromycyna, wodzian chloralu, cefamandol, cefaleksyna, cefmenoksym, cefmetazol, cefoperazon, cefuroksym, cymetydyna, ciprofloksacyna, klofibrat, kodeina, cyklofosfamid, dekstropropoksyfen, (dekstro)tyroksyna, digoxin, disulfiram, doksycyklina, erytromycyna, etopozyd, fenofibrat, feprazon, flukonazol, fluorouracyl, flutamid, fluwastatyna, gemfibrozyl, grepafloksacyna, indometacyna, szczepionka przeciw grypie, interferon alfa i beta, ifosfamid, itrakonazol, ketokonazol, latamoksef, leflunomid, lepirudin, lewofloksacyna, lowastatyna, metolazon, metotreksat, metronidazol, mikonazol (również żel doustny), kwas nalidyksowy, norfloksacyna, ofloksacyna, omeprazol, oksyfenbutazon, paracetamol (działanie ujawnia się po 1 do 2 tygodni ciągłego stosowania), fenylbutazon, piroksykam, proguanil, propafenon, propranolol, chinina, chinidyna, rofecoxib, roksytromycyna, simwastatyna, sulfafurazol, sulfametizol, sulfametoksazol-trimetoprim, sulfafenazol, sulfinpirazon, sulfofenur, sulindak, (anaboliczne i androgenne) hormony steroidowe, tamoksifen, tegafur, tetracyklina, tolmetyna, trastuzumab, troglitazon, kwas walproinowy, witamina A, witamina E, zafirlukast.
+<br><br><u>Zmniejszenie działania:</u> azatiopryna, (barbiturany), karbamazepina, chlordiazepoksyd, chlortalidon, kloksacylina, cyklosporyna, dikloksacylina, disopiramid, gryzeofulwina, izoniazyd, merkaptopuryna, mesalazyna, mitotan, nafcylina, nevirapina, fenobarbital, primidon, ryfampicyna, spironolakton, trazodon, witamina C.
+<br><br><u>Preparaty ziołowe</u> mogą albo nasilać działanie warfaryny, np. miłorząb (Ginkgo biloba), czosnek (Allium sativum), arcydzięgiel (Angelica sinensis, zawiera kumaryny), papaja (Carica papaya) lub szałwia (Salvia miltiorrhiza, hamuje eliminację warfaryny), lub zmniejszać jej aktywność, np. żeń-szeń (Panax spp.). Działanie warfaryny można również zmniejszyć poprzez jednoczesne stosowanie preparatu ziołowego z dziurawca zwyczajnego (Hypericum perforatum). Jest to związane z indukowaniem przez dziurawiec aktywności enzymów metabolizujących. Preparaty ziołowe zawierające dziurawiec nie powinny zatem być łączone z warfaryną. Efekt indukujący aktywność enzymów może się utrzymywać nawet przez 2 tygodnie od zaprzestania leczenia dziurawcem. Jeśli pacjent przyjmuje już dziurawiec, należy sprawdzić wskaźnik INR i zaprzestać podawania dziurawca. Uważnie monitorować wskaźnik INR, gdyż ten może wzrosnąć po zakończeniu stosowania dziurawca. Może występować konieczność dostosowania dawki warfaryny.
+<br>
+Spożywanie pokarmów zawierających witaminę K podczas leczenia warfaryną powinno być możliwie jak najbardziej równomierne. Najobfitszymi źródłami witaminy K są zielone warzywa i liście, takie jak: liście szarłatu, awokado, brokuły, brukselka, kapusta, olej kanola, liść kolczocha jadalnego, szczypior, kolendra, skórka ogórka (ale nie ogórek bez skórki), endywia (cykoria), liście kapusty włoskiej, owoc kiwi, liście sałaty, liście mięty, gorczyca sarepska, oliwa z oliwek, pietruszka, groszek, orzeszki pistacjowe, wodorosty purpurowe, liście szpinaku, młoda cebula, fasola sojowa, olej z fasoli sojowej, liście herbaty (ale nie herbata), rzepa, lub rukiew (rzeżucha) wodna.
+<br><br>
+<b><a name="z6"></a>4.6 Ciąża i laktacja</b><br>
+<a href="#z10"><i>Wróć na górę</i></a><br><br><br>
+Warfaryna przenika przez łożysko. Leczenie matki warfaryną może powodować embriopatię warfarynową (niedorozwój nosa i chondrodysplazja punktowa), jeśli warfaryna podawana jest w okresie organogenezy (od 6 do 12 tygodnia ciąży), a nawet po upływie tego okresu warfaryna może powodować zaburzenia rozwoju ośrodkowego układu nerwowego. Warfaryna może powodować krwawienia płodowe, co ma szczególne znaczenie w okolicy terminu porodu oraz w jego trakcie. Ocenia się, że embriopatia warfarynowa występuje u 4 do 6% ciąż, jeśli warfaryna stosowana jest przez cały okres ciąży, a prawdopodobieństwo jej wystąpienia rośnie w przypadku stosowania dawek większych niż 5 mg na dobę. Zatem warfaryna jest przeciwwskazana w okresie od 6 do 12 tygodnia ciąży oraz po upływie połowy trzeciego trymestru ciąży. W innych okresach ciąży należy uważnie rozważyć ryzyko dla płodu wynikające ze stosowania warfaryny wobec ryzyka dla matki i płodu wynikającego z niestosowania warfaryny. Leczenie przeciwzakrzepowe w ciąży musi być indywidualnie zaplanowane i prowadzone pod nadzorem specjalisty klinicznego.
+Warfaryna nie przenika do mleka matki. Można karmić piersią podczas leczenia warfaryną.
+<br><br>
+<b><a name="z7"></a>4.7 Wpływ na zdolność prowadzenia pojazdów mechanicznych i obsługiwania urządzeń mechanicznych w ruchu</b><br>
+<a href="#z10"><i>Wróć na górę</i></a><br><br><br>Nie wywiera wpływu.<br>
+<br><b><a name="z8"></a>4.8 Działania niepożądane</b><br>
+<a href="#z10"><i>Wróć na górę</i></a><br><br>
+<table>
+<tr>
+<td rowspan="3">Zaburzenia naczyń </td>
+<td>często 1-10% </td>
+<td>krwawienie </td>
+</tr>
+<tr>
+<td>rzadko 0.01-0.1%  </td>
+<td>martwica kumarynowa naskórka, zespół purpurowego palucha </td>
+</tr>
+<tr>
+<td>bardzo rzadko <0.01% </td>
+<td>zapalenie naczyń  </td>
+</tr>
+
+<tr>
+<td>Zaburzenia układu oddechowego  </td>
+<td>bardzo rzadko <0.01%  </td>
+<td>zwapnienia tchawiczne </td>
+</tr>
+
+<tr>
+<td>Zaburzenia żołądkowo-jelitowe </td>
+<td>często 1-10% </td>
+<td>nudności, wymioty, biegunka </td>
+</tr>
+<tr>
+<td>Zaburzenia wątroby i dróg żółciowych </td>
+<td>bardzo rzadko <0.01% </td>
+<td>odwracalne zwiększenie aktywności enzymów wątrobowych, cholestatyczne zapalenie wątroby </td>
+</tr>
+<tr>
+<td>Zaburzenia skóry i tkanki podskórnej </td>
+<td>bardzo rzadko <0.01%> </td>
+<td>odwracalne łysienie, wysypka </td>
+</tr>
+<tr>
+<td>Zaburzenia układu rozrodczego, mężczyźni </td>
+<td>bardzo rzadko <0.01% </td>
+<td>priapizm </td>
+</tr>
+<tr>
+<td>Dolegliwości ogólne </td>
+<td>bardzo rzadko <0.01%  </td>
+<td>reakcje alergiczne (objawiające się zwykle wysypką) </td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<br>
+Powszechnie zgłaszane działania niepożądane (1-10%) podczas leczenia warfaryną polegają na powikłaniach związanych z krwawieniem. Ogólny odsetek krwawień wynosi około 8% na rok dla wszystkich krwawień, składających się z mniej poważnych krwawień (6% rocznie), poważnych krwawień (1% rocznie) oraz krwawień śmiertelnych (0,25% rocznie). Najczęstszym czynnikiem ryzyka krwawienia wewnątrzczaszkowego jest nieleczone lub niekontrolowane nadciśnienie tętnicze. Prawdopodobieństwo krwawienia rośnie wraz ze znaczącym wzrostem wskaźnika INR ponad docelowy zakres terapeutyczny. Jeśli dojdzie do krwawienia, podczas gdy INR znajduje się w zakresie docelowym, zwykle istnieje przyczyna współistniejąca, której należy poszukiwać.
+<br>Martwica kumarynowa jest rzadkim powikłaniem (<0,1%) związanym z leczeniem warfaryną. Objawia się początkowo puchnącymi i ciemniejącymi zmianami skórnymi, pojawiającymi się zwykle na kończynach dolnych lub pośladkach, mogącymi jednak ujawnić się również gdzie indziej. Następnie zmiany przechodzą w zmiany martwicze. 90% pacjentów to kobiety. Zmiany pojawiają się pomiędzy 3 a 10 dniem leczenia warfaryną, a etiologia obejmuje względny niedobór przeciwzakrzepowych białek C i S. Wrodzony niedobór tych białek może predysponować do powstania tego powikłania. Z tego powodu leczenie warfaryną u takich pacjentów należy rozpoczynać równolegle z heparyną, z zastosowaniem niskich dawek początkowych warfaryny. Jeśli powikłanie się ujawni, leczenie warfaryną należy odstawić i kontynuować leczenie heparyną do czasu wygojenia lub zabliźnienia zmian skórnych.
+<br>Zespół purpurowego palucha jest jeszcze rzadszym powikłaniem leczenia warfaryną. Dotyczy z reguły mężczyzn cierpiących na chorobę miażdżycową. Wydaje się, że warfaryna powoduje krwawienia do płytek miażdżycowych prowadząc do mikrozatorowości. Pojawiają się symetryczne purpurowe zmiany skóry paluchów oraz podeszew, a ich powstaniu towarzyszy piekący ból. Leczenie warfaryną należy odstawić, wówczas zmiany skórne z reguły powoli zanikają.
+<br>
+<br><a name="z9"></a><b>4.9 Przedawkowanie</b><br><a href="#z10"><i>Wróć na górę</i></a><br><br><br>
+W przypadkach łagodnych oraz w sytuacji, gdy przedawkowanie miało charakter stopniowy, zwykle wystarczy odstawić leczenie warfaryną do czasu powrotu wskaźnika INR do docelowego zakresu terapeutycznego. Jeśli pacjent przyjął dużą dawkę, nie zaleca się płukania żołądka ze względu na ryzyko krwawienia. Należy ponawiać podawanie węgla aktywowanego w celu zahamowania wchłaniania i recyrkulacji jelitowo-wątrobowej warfaryny. Jeśli podano węgiel aktywowany, należy podać pozajelitowo (iv) witaminę K. Jeśli dojdzie do powikłania pod postacią krwawienia, działanie warfaryny można odwrócić poprzez podanie witaminy K, koncentratu czynników krzepnięcia lub świeżo mrożonego osocza. Jeśli wskazane jest stosowanie doustnych leków przeciwkrzepliwych w przyszłości, należy unikać podawania dużych dawek witaminy K, przekraczających 10 mg. W przeciwnym razie pacjent będzie wykazywał oporność na warfarynę przez okres do dwóch tygodni.
+<br>
+W leczeniu przedawkowania można zastosować poniższe sposoby:<br><br>
+<table>
+<tr>
+<th colspan="2">Wobec braku klinicznie istotnego krwawienia</th>
+</tr>
+<tr>
+<th>Zakres INR </th>
+<th>Zalecenia </th>
+</tr>
+
+<tr>
+<td><5,0 </td>
+<td>Wstrzymać kolejną dawkę warfaryny i powrócić do leczenia niższą dawką w terapeutycznym zakresie INR. </td>
+</tr>
+
+<tr>
+<td>5,0-9,0 </td>
+<td>Wstrzymać podane 1 do 2 dawek i powrócić do stosowania warfaryny w niższej dawce, w terapeutycznym zakresie INR, LUB wstrzymać 1 dawkę warfaryny i podać doustnie 2,5 mg witaminy K. </td>
+</tr>
+
+<tr>
+<td>>9,0 </td>
+<td>Wstrzymać podawanie warfaryny podać doustnie witaminę K, 3 do 5 mg. </td>
+</tr>
+
+<tr>
+<th colspan="2">Szybkie przestawienie zalecane np. przed zabiegiem chirurgicznym </th>
+</tr>
+<tr>
+<th>Zakres INR </th>
+<th>Zalecenia </th>
+</tr>
+<tr>
+<td>5,0-9,0, przy planowanym zabiegu </td>
+<td>Wstrzymać podawanie warfaryny podać doustnie witaminę K, 2 do 4 mg. Około 24 godziny przed zabiegiem można podać dodatkową dawkę doustną 1 do 2 mg witaminy K. </td>
+</tr>
+
+<tr>
+<th colspan="2">Wskazane bardzo szybkie przestawienie </th>
+</tr>
+<tr>
+<th>Zakres INR </th>
+<th>Zalecenia </th>
+</tr>
+<tr>
+<td>Poważne krwawienie lub poważne przedawkowanie (np. INR >20) </td>
+<td>Podać witaminę K w dawce 10 mg w powolnym wlewie dożylnym. Wskazane może być również zastosowanie świeżo mrożonego osocza lub koncentratu kompleksu protrombiny, zależnie od pilności sytuacji. Można powtarzać dawkę witaminy K co 12 godzin, zależnie od potrzeb. </td>
+</tr>
+
+
+
+
+</table>
+
+</body>
+</html>

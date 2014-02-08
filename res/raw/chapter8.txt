@@ -1,0 +1,26 @@
+<style>
+table, th, td
+{
+border:1px solid black;
+
+}
+
+body
+{
+background:radial-gradient(#EDF8FD, #C1E9FD);
+{
+</style>
+<html>
+<body>
+Orion Pharma<br>
+<br>Orion Oyj S.A. Przedstawicielstwo w Polsce
+<br>01-699 Warszawa, ul. Parandowskiego 19
+
+<br>tel./fax:
+<br>(+48 22) 833 31 77
+<br>(+48 22) 832 10 36
+<br>(+48 22) 832 10 37
+<br>e-mail: kontakt@orionpharma.info.pl
+
+</body>
+</html>
