@@ -28,8 +28,8 @@
             android:label="@string/title_activity_guide" >
         </activity>
         <activity
-            android:name="pg.eti.biomed.kalendarzinr.Calendar"
-            android:label="@string/title_activity_calendar" >
+            android:name="pg.eti.biomed.kalendarzinr.GridCalendar"
+            android:label="@string/title_activity_grid_calendar" >
         </activity>
     </application>
 

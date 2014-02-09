@@ -9,7 +9,6 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
-import android.view.Window;
 import android.view.WindowManager;
 import android.widget.ImageButton;
 
@@ -49,7 +48,7 @@ public class MainActivity extends Activity implements OnClickListener{
 		if(id==R.id.helpButton){
 			intention = new Intent(this, Guide.class);
 		}if(id==R.id.calendarButton){
-			intention = new Intent(this, Calendar.class);
+			intention = new Intent(this, GridCalendar.class);
 		}		
 		
 		startActivity(intention);

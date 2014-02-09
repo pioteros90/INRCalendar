@@ -9,5 +9,5 @@
 
     <string name="title_activity_guide">Guide</string>
     <string name="title_activity_calendar">Calendar</string>
-
+	<string name="title_activity_grid_calendar">GridCalendar</string>
 </resources>
