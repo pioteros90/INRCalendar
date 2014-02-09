@@ -9,6 +9,8 @@ import android.content.Intent;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.Window;
+import android.view.WindowManager;
 import android.widget.ImageButton;
 
 
@@ -19,12 +21,17 @@ public class MainActivity extends Activity implements OnClickListener{
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+    	  setTheme(android.R.style.Theme_Translucent_NoTitleBar_Fullscreen);
+          getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WALLPAPER);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         this.helpButton = (ImageButton) findViewById(R.id.helpButton);
         this.calendarButton = (ImageButton) findViewById(R.id.calendarButton);
         calendarButton.setOnClickListener(this);
         helpButton.setOnClickListener(this);
+      
+
+      
     }
 
 

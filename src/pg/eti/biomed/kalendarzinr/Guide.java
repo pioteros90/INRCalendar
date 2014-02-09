@@ -16,6 +16,7 @@ import android.support.v4.view.ViewPager;
 import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.view.WindowManager;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.TextView;
@@ -30,6 +31,8 @@ public class Guide extends Activity {
 	@Override
 
 		public void onCreate(Bundle savedInstanceState) {
+		  setTheme(android.R.style.Theme_Translucent_NoTitleBar_Fullscreen);
+          getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WALLPAPER);
             super.onCreate(savedInstanceState);
             setContentView(R.layout.main);
 

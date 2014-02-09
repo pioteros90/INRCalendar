@@ -2,10 +2,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/gradient2"
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
     tools:context=".MainActivity" >
 
     <ImageButton
@@ -14,7 +16,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:background="@color/black"
+        android:background="@drawable/gradient2"
         android:src="@drawable/ic_help" />
 
     <ImageButton
@@ -23,7 +25,33 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/helpButton"
         android:layout_centerHorizontal="true"
-        android:background="@color/black"
+        android:background="@drawable/gradient2"
         android:src="@drawable/ic_calendar" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/calendarButton"
+        android:layout_marginRight="14dp"
+        android:text="Kalendarz INR"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textClock1"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="16dp" />
+
+    <TextClock
+        android:id="@+id/textClock1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="TextClock"
+        android:textColor="#000000" />
 
 </RelativeLayout>
