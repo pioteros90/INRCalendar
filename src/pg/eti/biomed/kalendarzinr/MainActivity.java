@@ -62,7 +62,7 @@ public class MainActivity extends Activity implements OnClickListener{
     	sql.close();
     	if(result.size()==0){
     		alertsText.setText("Brak zarejestrowanego badania INR.\nAby wprowadziæ wynik badania przejdŸ do zak³adki Kalendarz, a nastêpnie wybierz dzieñ badania i naciœnij przycisk '+'");
-    		alertsText.setTextColor(Color.YELLOW);
+    		alertsText.setTextColor(Color.BLACK);
     		alertsText.setBackgroundResource(R.drawable.gradient);
     	}else{
     		Double inrResult = Double.parseDouble(result.get(1));
