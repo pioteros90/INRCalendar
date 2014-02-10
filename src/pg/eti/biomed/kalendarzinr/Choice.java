@@ -33,7 +33,7 @@ public class Choice extends Activity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		/** Ustawienie aktywnoœci w trybie FullScreen **/
-		setTheme(android.R.style.Theme_Translucent_NoTitleBar_Fullscreen); 
+		
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WALLPAPER);
         
 		super.onCreate(savedInstanceState);
