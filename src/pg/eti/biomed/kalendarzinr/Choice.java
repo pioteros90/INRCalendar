@@ -19,11 +19,11 @@ import android.widget.SeekBar.OnSeekBarChangeListener;
 public class Choice extends Activity implements OnClickListener {
 	private static final int REQUEST_CODE = 10;
 
-	
+	/** Deklaracja kontrolek **/
 	private Button but;
 	private ToggleButton toggleButton1, toggleButton2;
 	private SeekBar bar1,bar2;
-	int suma,iter2,iter1=0;
+	double suma,iter2,iter1=0;
 	TextView value,text1,text2,text3,tabs3,tabs5,text4,text5;
 	EditText entrie;
 	private boolean isINRClicked=false;
@@ -32,11 +32,14 @@ public class Choice extends Activity implements OnClickListener {
 	  
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		setTheme(android.R.style.Theme_Translucent_NoTitleBar_Fullscreen);
+		/** Ustawienie aktywnoœci w trybie FullScreen **/
+		setTheme(android.R.style.Theme_Translucent_NoTitleBar_Fullscreen); 
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WALLPAPER);
+        
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_choice);
-		addListenerOnButton();
+		setContentView(R.layout.activity_choice); //Wywo³anie layoutu z widokiem klasy Choice
+		addListenerOnButton(); // Dodanie obs³ugi przyciœniêcia dla przycisku
+		/** Przypisanie zadeklarowanym kontrolkom ich w³aœciwych reprezentatów  z widoku xml **/
 		this.but = (Button) findViewById(R.id.button1);
 		but.setOnClickListener(this);
 		text1 = (TextView) findViewById(R.id.textView1);
@@ -48,18 +51,22 @@ public class Choice extends Activity implements OnClickListener {
 		tabs5 = (TextView) findViewById(R.id.textab5);
 		value = (TextView) findViewById(R.id.textView3);
 		entrie = (EditText) findViewById(R.id.editText1);
-		bar1 = (SeekBar)findViewById(R.id.seekBar1); // make seekbar object
-		bar1.setProgress(0);
+		
+		/** Deklaracja pierwszego SeekBaru, dla tabletek 3mg **/
+		bar1 = (SeekBar)findViewById(R.id.seekBar1);
+		
         bar1.incrementProgressBy(1);
-        bar1.setMax(10);
-        bar1.setOnSeekBarChangeListener( new OnSeekBarChangeListener()  
+        bar1.setMax(5);
+        bar1.setProgress(0); 
+        bar1.setOnSeekBarChangeListener( new OnSeekBarChangeListener() 
+        
         {
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser)
         {
-        	iter1=progress*3;
+        	iter1=(double)(progress)*3*(0.5);
         	suma=iter1+iter2;
-        	tabs3.setText(Integer.toString(progress));
-            value.setText(Integer.toString(suma));
+        	tabs3.setText(Double.toString((double)(progress)*0.5));
+            value.setText(Double.toString(suma));
          }
 
         public void onStartTrackingTouch(SeekBar seekBar)
@@ -70,18 +77,19 @@ public class Choice extends Activity implements OnClickListener {
         {
         } });
         
-    	bar2 = (SeekBar)findViewById(R.id.seekBar2); // make seekbar object
-		bar2.setProgress(0);
+    	bar2 = (SeekBar)findViewById(R.id.seekBar2);
+		
         bar2.incrementProgressBy(1);
-        bar2.setMax(10);
+        bar2.setMax(5);
+        bar2.setProgress(0);
         bar2.setOnSeekBarChangeListener( new OnSeekBarChangeListener()  
         {
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser)
         {
-        	iter2=progress*5;
+        	iter2=(double)(progress)*5*(0.5);
         	suma=iter1+iter2;
-        	tabs5.setText(Integer.toString(progress));
-            value.setText(Integer.toString(suma));
+        	tabs5.setText(Double.toString((double)(progress)*0.5));
+            value.setText(Double.toString(suma));
          }
 
         public void onStartTrackingTouch(SeekBar seekBar)
@@ -107,7 +115,6 @@ public class Choice extends Activity implements OnClickListener {
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
-		// Inflate the menu; this adds items to the action bar if it is present.
 		getMenuInflater().inflate(R.menu.choice, menu);
 		return true;
 	}
@@ -121,7 +128,6 @@ public class Choice extends Activity implements OnClickListener {
 	            @Override
 	            public void onClick(View v) {
 	            	isINRClicked=false;
-	                // TODO Auto-generated method stub
 	                 if (toggleButton1.isChecked()) {
 	               	 toggleButton2.setChecked(false);
 	                	 bar1.setVisibility(View.VISIBLE);
@@ -133,9 +139,7 @@ public class Choice extends Activity implements OnClickListener {
 	                    	text5.setVisibility(View.VISIBLE);
 	                    	tabs3.setVisibility(View.VISIBLE);
 	                    	tabs5.setVisibility(View.VISIBLE);
-	                    	//text3.setVisibility(View.GONE);
-	                    //	entrie.setVisibility(View.GONE);
-	                    	entrie.setVisibility(View.GONE);
+	                       	entrie.setVisibility(View.GONE);
 	                    	text3.setVisibility(View.GONE);
 	                	 
 	                	 
@@ -158,21 +162,10 @@ public class Choice extends Activity implements OnClickListener {
 	            @Override
 	            public void onClick(View v) {
 	            	isINRClicked=true;
-	                // TODO Auto-generated method stub
 	                 if (toggleButton2.isChecked()) {
 	 
 	                	 toggleButton1.setChecked(false);
-	                    	
-	                    	//bar1.setVisibility(View.GONE);
-	                    //	bar2.setVisibility(View.GONE);
-	                    	//value.setVisibility(View.GONE);
-	                    	//text1.setVisibility(View.GONE);
-	                    	//text2.setVisibility(View.GONE);
-	                    	text3.setVisibility(View.VISIBLE);
-	                    	//text4.setVisibility(View.GONE);
-	                    	//text5.setVisibility(View.GONE);
-	                    	//tabs3.setVisibility(View.GONE);
-	                    	//tabs5.setVisibility(View.GONE);
+	                    	text3.setVisibility(View.VISIBLE);	                    
 	                    	entrie.setVisibility(View.VISIBLE);
 	                    	bar1.setVisibility(View.GONE);
 	                    	bar2.setVisibility(View.GONE);
@@ -182,12 +175,8 @@ public class Choice extends Activity implements OnClickListener {
 	                    	text4.setVisibility(View.GONE);
 	                    	text5.setVisibility(View.GONE);
 	                    	tabs3.setVisibility(View.GONE);
-	                    	tabs5.setVisibility(View.GONE);
-	                	 
-	                	 
+	                    	tabs5.setVisibility(View.GONE);   	 
 	                    } else {
-	 
-	                    	
 	                    	entrie.setVisibility(View.GONE);
 	                    	text3.setVisibility(View.GONE);
 	                    }
@@ -209,7 +198,7 @@ public class Choice extends Activity implements OnClickListener {
 				 i.putExtra("result", entrie.getText().toString());
 			 }else{
 				 i.putExtra("type", 0);
-				 i.putExtra("result", Integer.toString(suma));
+				 i.putExtra("result", String.valueOf(suma));
 			 }
 			 
 	 	     setResult(RESULT_OK, i);

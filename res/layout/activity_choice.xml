@@ -6,6 +6,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient2"
     tools:context=".Choice" >
 
     <ToggleButton
@@ -37,7 +38,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/seekBar1"
         android:layout_alignLeft="@+id/seekBar1"
-        android:text="Tabletki 3mg" />
+        android:text="Tabletki 3mg"
+        android:textColor="#000000" />
 
     <SeekBar
         android:id="@+id/seekBar2"
@@ -52,7 +54,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/seekBar2"
         android:layout_alignLeft="@+id/seekBar2"
-        android:text="Tabletki 5mg" />
+        android:text="Tabletki 5mg"
+        android:textColor="#000000" />
 
     <SeekBar
         android:id="@+id/seekBar1"
@@ -69,7 +72,8 @@
         android:layout_below="@+id/toggleButton2"
         android:layout_marginTop="20dp"
         android:layout_toRightOf="@+id/toggleButton1"
-        android:text="Wpisz wartość:" />
+        android:text="Wpisz wartość:"
+        android:textColor="#000000" />
 
     <EditText
         android:id="@+id/editText1"
@@ -91,7 +95,8 @@
         android:layout_alignLeft="@+id/toggleButton1"
         android:layout_alignParentTop="true"
         android:layout_marginTop="32dp"
-        android:text="Wybierz opcję do wprowadzenia" />
+        android:text="Wybierz opcję do wprowadzenia"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textView3"
@@ -100,8 +105,9 @@
         android:layout_alignLeft="@+id/toggleButton2"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="77dp"
-        android:text="Large Text"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textView6"
@@ -110,7 +116,8 @@
         android:layout_above="@+id/seekBar1"
         android:layout_marginLeft="18dp"
         android:layout_toRightOf="@+id/textView1"
-        android:text="liczba sztuk:" />
+        android:text="liczba sztuk:"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textView7"
@@ -118,7 +125,8 @@
         android:layout_height="wrap_content"
         android:layout_above="@+id/seekBar2"
         android:layout_alignLeft="@+id/textView6"
-        android:text="liczba sztuk:" />
+        android:text="liczba sztuk:"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textab3"
@@ -126,7 +134,8 @@
         android:layout_height="wrap_content"
         android:layout_alignBottom="@+id/textView6"
         android:layout_toRightOf="@+id/textView6"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000000" />
 
     <TextView
         android:id="@+id/textab5"
@@ -134,7 +143,8 @@
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textab3"
         android:layout_below="@+id/seekBar1"
-        android:text="0" />
+        android:text="0"
+        android:textColor="#000000" />
 
     <Button
         android:id="@+id/button1"

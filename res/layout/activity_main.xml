@@ -19,39 +19,39 @@
         android:background="@drawable/gradient2"
         android:src="@drawable/ic_help" />
 
-    <ImageButton
-        android:id="@+id/calendarButton"
-        android:layout_width="100dp"
+    <Space
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/helpButton"
-        android:layout_centerHorizontal="true"
-        android:background="@drawable/gradient2"
-        android:src="@drawable/ic_calendar" />
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/warfin" />
 
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignRight="@+id/calendarButton"
-        android:layout_marginRight="14dp"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginLeft="16dp"
         android:text="Kalendarz INR"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <Space
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/textClock1"
-        android:layout_alignParentTop="true"
-        android:layout_marginLeft="18dp"
-        android:layout_marginTop="16dp" />
-
-    <TextClock
-        android:id="@+id/textClock1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentTop="true"
-        android:text="TextClock"
+        android:textAppearance="?android:attr/textAppearanceLarge"
         android:textColor="#000000" />
+
+    <ImageButton
+        android:id="@+id/calendarButton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/imageView1"
+        android:layout_alignTop="@+id/helpButton"
+        android:background="@drawable/gradient2"
+        android:src="@drawable/ic_calendar" />
 
 </RelativeLayout>
