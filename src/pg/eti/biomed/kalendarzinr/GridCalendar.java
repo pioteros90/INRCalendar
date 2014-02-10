@@ -61,10 +61,11 @@ public class GridCalendar extends Activity  implements OnClickListener{
 	}
 	
 	private void setAdapterForNewData(){
-		this.adapter = new GridCalendarAdapter(this, monthCalendar, yearCalendar, eventsMonitor);
+		this.adapter = new GridCalendarAdapter(this, monthCalendar, yearCalendar, eventsMonitor, addEventBtn);
 		adapter.notifyDataSetChanged();
 		gridCalendar.setAdapter(adapter);
 		monthHeader.setText(adapter.getMonthHeader());
+		addEventBtn.setEnabled(false);
 	}
 	
 	private void gotoNextMonth(){

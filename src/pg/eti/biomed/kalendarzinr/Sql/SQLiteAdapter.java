@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 
 public class SQLiteAdapter {    
-    private static final int DB_VERSION = 8; //wersja bd - jesli nastapi zmiana struktury BD
+    private static final int DB_VERSION = 9; //wersja bd - jesli nastapi zmiana struktury BD
     private static final String DB_FILE_NAME = "database.db"; //nazwa pliku /data/data/apka/databases/"".db
     private static final String DB_TABLE_NAME = "Event"; //nazwa tabeli
     

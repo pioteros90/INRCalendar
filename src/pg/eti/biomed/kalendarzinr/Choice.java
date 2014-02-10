@@ -186,23 +186,41 @@ public class Choice extends Activity implements OnClickListener {
 	
 		 @Override
 			public void onClick(View v) {
+			 Intent i = new Intent();
+			 if(isINRClicked && isINRDataCorrect()){
+				 i.putExtra("type", 1);
+				 i.putExtra("result", entrie.getText().toString());
+				 setResult(RESULT_OK, i);
+			 }
+			 else if(!isINRClicked && suma>0){
+				 i.putExtra("type", 0);
+				 i.putExtra("result", String.valueOf(suma));
+				 setResult(RESULT_OK, i);
+			 }else{
+				 setResult(RESULT_CANCELED, i);
+			 }
 			 finish();
 			}
+		 
+		 private boolean isINRDataCorrect(){
+			 double d;
+			 try{
+		     String INRResult = entrie.getText().toString();
+			 d = Double.parseDouble(INRResult);
+			 if(!INRResult.equals("") && INRResult!=null){
+				 return true;
+			 }else{
+				 return false;
+			 }
+			 }catch(NumberFormatException e){
+				 return false;
+			 }
+		 }
+		 
 		 
 		 
 		 @Override
 		public void finish() {
-			 Intent i = new Intent();
-			 if(isINRClicked){
-				 i.putExtra("type", 1);
-				 i.putExtra("result", entrie.getText().toString());
-			 }else{
-				 i.putExtra("type", 0);
-				 i.putExtra("result", String.valueOf(suma));
-			 }
-			 
-	 	     setResult(RESULT_OK, i);
-	 	     
 			super.finish();
 		}
 			

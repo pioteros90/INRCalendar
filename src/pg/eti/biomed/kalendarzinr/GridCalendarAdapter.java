@@ -41,15 +41,17 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 	private TextView outputDayEvents;
 	private SQLiteAdapter sqlAdapter;
 	private final static String NO_EVENTS_FOUNDED = "Brak zdarzeñ";
+	private Button addEventBtn;
 
 	
 	
-	public GridCalendarAdapter(Context c, int aMonth, int aYear, TextView tv){
+	public GridCalendarAdapter(Context c, int aMonth, int aYear, TextView tv, Button plusBtn){
 		mContext=c;
 		this.month = aMonth;
 		this.year = aYear;
 		this.outputDayEvents = tv;
 		this.sqlAdapter = new SQLiteAdapter(c);
+		this.addEventBtn = plusBtn;
 		prepareMonth();
 		
 	}
@@ -292,6 +294,7 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 	public void onClick(View arg0) {
 		highlightSelectedDay(arg0);
 		monitorEvents(arg0);
+		addEventBtn.setEnabled(true);
 	}
 
 
