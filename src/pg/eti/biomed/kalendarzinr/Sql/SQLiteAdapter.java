@@ -10,7 +10,7 @@ import android.database.sqlite.SQLiteDatabase;
 
 
 public class SQLiteAdapter {    
-    private static final int DB_VERSION = 9; //wersja bd - jesli nastapi zmiana struktury BD
+    private static final int DB_VERSION = 11; //wersja bd - jesli nastapi zmiana struktury BD
     private static final String DB_FILE_NAME = "database.db"; //nazwa pliku /data/data/apka/databases/"".db
     private static final String DB_TABLE_NAME = "Event"; //nazwa tabeli
     
@@ -60,6 +60,20 @@ public class SQLiteAdapter {
     		c.close();
    
     	return dayEvents;
+    }
+    
+    public ArrayList<String> getLastINRResult(){
+    	ArrayList<String> record = new ArrayList<String>();
+    	String query = "SELECT date, result FROM "+DB_TABLE_NAME+" WHERE type = 1 ORDER BY date DESC;";
+    	Cursor c =db.rawQuery(query, null);
+    	if(c.moveToFirst()){
+    		String date = c.getString(0);
+    		String result = c.getString(1);
+    		record.add(date);
+    		record.add(result);
+    	}
+    	c.close();
+    	return record;
     }
     
     //"2014-02-05"
