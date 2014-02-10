@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.WindowManager;
@@ -12,7 +13,6 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.SeekBar;
 import android.widget.TextView;
-import android.widget.Toast;
 import android.widget.ToggleButton;
 import android.widget.SeekBar.OnSeekBarChangeListener;
 
@@ -26,6 +26,7 @@ public class Choice extends Activity implements OnClickListener {
 	int suma,iter2,iter1=0;
 	TextView value,text1,text2,text3,tabs3,tabs5,text4,text5;
 	EditText entrie;
+	private boolean isINRClicked=false;
 	
 	 
 	  
@@ -119,6 +120,7 @@ public class Choice extends Activity implements OnClickListener {
 			 
 	            @Override
 	            public void onClick(View v) {
+	            	isINRClicked=false;
 	                // TODO Auto-generated method stub
 	                 if (toggleButton1.isChecked()) {
 	               	 toggleButton2.setChecked(false);
@@ -155,6 +157,7 @@ public class Choice extends Activity implements OnClickListener {
 			 
 	            @Override
 	            public void onClick(View v) {
+	            	isINRClicked=true;
 	                // TODO Auto-generated method stub
 	                 if (toggleButton2.isChecked()) {
 	 
@@ -194,13 +197,25 @@ public class Choice extends Activity implements OnClickListener {
 	
 		 @Override
 			public void onClick(View v) {
-			 Intent i = new Intent(this, GridCalendar.class);
-			         i.putExtra("Value1", Integer.toString(suma));
-			 	        i.putExtra("Value2", entrie.getText().toString());
-			 	        // Set the request code to any code you like, you can identify the
-			 	        // callback via this code
-			 	        startActivityForResult(i, REQUEST_CODE);
-			       }
+			 finish();
+			}
+		 
+		 
+		 @Override
+		public void finish() {
+			 Intent i = new Intent();
+			 if(isINRClicked){
+				 i.putExtra("type", 1);
+				 i.putExtra("result", entrie.getText().toString());
+			 }else{
+				 i.putExtra("type", 0);
+				 i.putExtra("result", Integer.toString(suma));
+			 }
+			 
+	 	     setResult(RESULT_OK, i);
+	 	     
+			super.finish();
+		}
 			
 				
 			

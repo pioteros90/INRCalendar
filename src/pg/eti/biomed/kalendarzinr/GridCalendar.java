@@ -7,6 +7,8 @@ import java.util.Locale;
 
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Intent;
+import android.util.Log;
 import android.view.Menu;
 import android.view.WindowManager;
 import android.widget.Button;
@@ -32,9 +34,7 @@ public class GridCalendar extends Activity  implements OnClickListener{
 	
 
 	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-  	  	setTheme(android.R.style.Theme_Translucent_NoTitleBar_Fullscreen);
-  	  	getWindow().addFlags(WindowManager.LayoutParams.FLAG_SHOW_WALLPAPER);
+	protected void onCreate(Bundle savedInstanceState) {	  	
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_grid_calendar);
 		
@@ -51,6 +51,7 @@ public class GridCalendar extends Activity  implements OnClickListener{
 		gotoPrevMonthBtn.setOnClickListener(this);
 		this.gridCalendar = (GridView) findViewById(R.id.calendarview);
 		setAdapterForNewData();
+		
 	}
 
 	@Override
@@ -81,6 +82,25 @@ public class GridCalendar extends Activity  implements OnClickListener{
 			this.yearCalendar--;
 		}
 	}
+	
+	@Override
+	protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+		if(requestCode==1){
+			if(resultCode==RESULT_OK){
+				Bundle extras = data.getExtras();
+				if(extras==null){
+					return;
+				}else{
+	                int type = extras.getInt("type");
+	                String result = extras.getString("result");
+	                adapter.addEventToCurrentlySelectedDay(type, result);
+	                adapter.refreshDayEvent();
+				}
+			}
+		}
+		super.onActivityResult(requestCode, resultCode, data);
+	}
 
 	@Override
 	public void onClick(View v) {
@@ -95,7 +115,8 @@ public class GridCalendar extends Activity  implements OnClickListener{
 				setAdapterForNewData();
 				break;
 			case R.id.add_event:
-				//TODO
+				Intent i = new Intent(this, Choice.class);
+				startActivityForResult(i, 1);
 				break;
 		}
 	}

@@ -54,6 +54,13 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 		
 	}
 	
+	public void refreshDayEvent(){
+		selectedDay.setBackgroundResource(R.drawable.day_event);
+		selectedDayBg = selectedDay.getBackground();
+		refreshMonitor();
+		
+	}
+	
 	public void gotoNextMonth(){
 		if(month==11){
 			month=0;
@@ -100,6 +107,13 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 		}else{
 			return true;
 		}
+	}
+	
+	public void addEventToCurrentlySelectedDay(int type, String result){
+		String date = String.valueOf(selectedDay.getTag());
+		date+=" 12:00:00";
+		sqlAdapter.open();
+		sqlAdapter.addEvent(date, type, result);
 	}
     
 	private void prepareMonth(){
@@ -242,6 +256,28 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 		
 		
 	}
+	
+	private void refreshMonitor(){
+		sqlAdapter.open();
+		ArrayList<String> eventsList = sqlAdapter.getDayEvents(String.valueOf(selectedDay.getTag()));
+		sqlAdapter.close();
+		String output="";
+		if(eventsList.size()==0){
+			this.outputDayEvents.setText(NO_EVENTS_FOUNDED);
+		}else{
+			ArrayList<String> records;
+			for(String str:eventsList){
+				records = new ArrayList<String>(Arrays.asList(str.split("/")));
+				if(records.get(0).equals("0")){
+					output += "Przyjêto dawkê leku w wielkoœci "+records.get(1)+" mg warfaryny\n\n";
+				}else{
+					output += "Wynik badania INR to "+records.get(1)+"\n\n";
+				}
+			}
+			this.outputDayEvents.setText(output);
+		}
+	}
+	
 	
 	@SuppressWarnings("deprecation")
 	private void clearHighLight(){
