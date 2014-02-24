@@ -7,7 +7,6 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
-import java.util.Locale;
 
 import pg.eti.biomed.kalendarzinr.Sql.SQLiteAdapter;
 import android.os.Bundle;
@@ -16,7 +15,6 @@ import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Color;
 
-import android.text.format.Time;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -118,11 +116,6 @@ public class MainActivity extends Activity implements OnClickListener{
     	}
     }
     
-    
-    
-    private void displayAlerts(){
-    	
-    }
 
 
     @Override

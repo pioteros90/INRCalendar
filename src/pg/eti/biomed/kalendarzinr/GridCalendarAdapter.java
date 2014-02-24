@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import java.util.TimeZone;
 
 import pg.eti.biomed.kalendarzinr.Sql.SQLiteAdapter;
 
@@ -117,6 +118,12 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 		sqlAdapter.open();
 		sqlAdapter.addEvent(date, type, result);
 	}
+	
+	private int getDayOfToday(){
+		Calendar localCalendar = Calendar.getInstance(TimeZone.getDefault());
+		int currentDay = localCalendar.get(Calendar.DATE);
+		return currentDay;
+	}
     
 	private void prepareMonth(){
 		
@@ -141,7 +148,7 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
     	}else{
     		prevMonthDayCount=daysOfMonth[month-1];
     	}
-    	
+    	int today = getDayOfToday();
 	    
     	int dayNr=dayOfWeek;
     	if(dayNr==0) dayNr=1;
@@ -159,7 +166,11 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 	    		if(hasEvent(dayNr)){
 	    			daysTypes[i] = 2;
 	    		}else{
-	    			daysTypes[i] = 0;
+	    			if(dayNr==today && actualMonthisDisplayed()) {
+	    				daysTypes[i] =3;
+	    			}else{
+	    				daysTypes[i] = 0;
+	    			}
 	    		}
 	    		dayNr++;
 	    		if(dayNr==daysOfMonth[month]+1){
@@ -173,6 +184,16 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 	    	}
 
 	    } 
+	}
+	
+	private boolean actualMonthisDisplayed(){
+		Calendar localCalendar = Calendar.getInstance(TimeZone.getDefault());
+		int currentMonth = localCalendar.get(Calendar.MONTH);
+		if(currentMonth==month){
+			return true;
+		}else{
+			return false;
+		}
 	}
     
 	@Override
@@ -224,6 +245,8 @@ public class GridCalendarAdapter extends BaseAdapter implements OnClickListener{
 			return R.drawable.day_white;
 		case 2:
 			return R.drawable.day_event;
+		case 3:
+			return R.drawable.day_present;
 		default:
 				return 0;
 		}

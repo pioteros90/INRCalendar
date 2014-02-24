@@ -7,20 +7,14 @@ import java.io.InputStreamReader;
 
 import android.app.Activity;
 import android.content.Context;
-import android.content.pm.PackageInfo;
-import android.content.pm.PackageManager.NameNotFoundException;
 import android.os.Bundle;
 import android.os.Parcelable;
 import android.support.v4.view.PagerAdapter;
 import android.support.v4.view.ViewPager;
-import android.text.Html;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.WindowManager;
-import android.webkit.WebSettings;
 import android.webkit.WebView;
-import android.widget.TextView;
-import android.widget.Toast;
 
 public class Guide extends Activity {
 
@@ -114,20 +108,6 @@ public class Guide extends Activity {
                     View view = inflater.inflate(resId, null);
 
                     ((ViewPager) collection).addView(view, 0);
-                    
-                   
-                   
-                    
-                     
-                    
-                    
-                    
-                    
-                    
-                    
-                    
-                  
-                    
                     
                     
                     if (position == 0){  

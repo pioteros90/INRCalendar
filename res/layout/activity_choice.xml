@@ -75,16 +75,6 @@
         android:text="Zapisz dane" />
 
     <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/button1"
-        android:layout_toLeftOf="@+id/button1"
-        android:text="0"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:textColor="#000000" />
-
-    <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -133,15 +123,6 @@
         android:text="+" />
 
     <Button
-        android:id="@+id/pill3Down"
-        style="?android:attr/buttonStyleSmall"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignTop="@+id/pill3Up"
-        android:layout_toRightOf="@+id/pill3Up"
-        android:text="-" />
-
-    <Button
         android:id="@+id/pill5Up"
         style="?android:attr/buttonStyleSmall"
         android:layout_width="wrap_content"
@@ -158,5 +139,25 @@
         android:layout_alignLeft="@+id/pill3Down"
         android:layout_alignTop="@+id/pill5Up"
         android:text="-" />
+
+    <Button
+        android:id="@+id/pill3Down"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pill3Up"
+        android:layout_alignBottom="@+id/pill3Up"
+        android:layout_alignRight="@+id/toggleButton1"
+        android:text="-" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/button1"
+        android:layout_alignRight="@+id/pill5Down"
+        android:text="0"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#000000" />
 
 </RelativeLayout>
