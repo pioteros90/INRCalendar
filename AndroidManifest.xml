@@ -35,6 +35,10 @@
             android:name="pg.eti.biomed.kalendarzinr.GridCalendar"
             android:label="@string/title_activity_grid_calendar" >
         </activity>
+        <activity
+            android:name="pg.eti.biomed.kalendarzinr.SettingsActivity"
+            android:label="@string/title_activity_settings" >
+        </activity>
     </application>
 
 </manifest>
