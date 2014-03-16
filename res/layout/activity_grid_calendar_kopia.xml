@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/gradient2"
+    tools:context=".CalendarActivity" >
+    
+
+
+	<GridView
+	    android:id="@+id/calendarview"
+	    android:layout_width="match_parent"
+	    android:layout_height="250dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="79dp"
+	    android:horizontalSpacing="1dp"
+	    android:numColumns="7"
+	    android:stretchMode="columnWidth"
+	    android:verticalSpacing="1dp" >
+	</GridView>
+
+	<Button
+	    android:id="@+id/goto_next_month"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/month_header"
+	    android:layout_alignRight="@+id/calendarview"
+	    android:layout_alignTop="@+id/month_header"
+	    android:layout_toRightOf="@+id/month_header"
+	    android:background="@drawable/calendar_right_arrow_selector" />
+
+	<Button
+	    android:id="@+id/goto_prev_month"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/month_header"
+	    android:layout_alignLeft="@+id/calendarview"
+	    android:layout_alignTop="@+id/month_header"
+	    android:layout_toLeftOf="@+id/month_header"
+	    android:background="@drawable/calendar_left_arrow_selector" />
+
+	<TextView
+	    android:id="@+id/day_events"
+	    android:layout_width="200dp"
+	    android:layout_height="100dp"
+	    android:layout_alignLeft="@+id/calendarview"
+	    android:layout_below="@+id/calendarview"
+	    android:layout_marginTop="14dp"
+	    android:text="0" />
+
+	<Button
+	    android:id="@+id/add_event"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignTop="@+id/day_events"
+	    android:layout_toRightOf="@+id/day_events"
+	    android:background="@drawable/calendar_plus_selector" />
+
+	<TextView
+	    android:id="@+id/month_header"
+	    android:layout_width="200dp"
+	    android:layout_height="40dp"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:background="@drawable/month_title"
+	    android:gravity="center"
+	    android:text="TextView"
+	    android:textColor="@color/month_header"
+	    android:textSize="30sp" />
+
+	<ImageView
+	    android:id="@+id/week_names_view"
+	    android:layout_width="match_parent"
+	    android:layout_height="40dp"
+	    android:layout_alignLeft="@+id/calendarview"
+	    android:layout_alignRight="@+id/calendarview"
+	    android:layout_below="@+id/goto_next_month"
+	    android:src="@drawable/week_view" />
+	
+</RelativeLayout>
